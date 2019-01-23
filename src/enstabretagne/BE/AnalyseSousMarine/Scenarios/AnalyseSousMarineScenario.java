@@ -53,12 +53,13 @@ public class AnalyseSousMarineScenario extends SimScenario{
 			Logger.Detail(this, "afteractivate", "Sous Marin à créer = %s , %s", e.getValue(),e.getKey());
 			Post(new SousMarinArrival(e.getValue(),e.getKey()));
 		}
-		
+		/*
 		for(Map.Entry<EntityBateauFeature, EntityBateauInit> e : feature.getBateaux().entrySet())
 		{
 			Logger.Detail(this, "afteractivate", "Bateau à créer = %s , %s", e.getValue(),e.getKey());
 			Post(new BateauArrival(e.getValue(),e.getKey()));
 		}
+		*/
 		
 		for(Map.Entry<EntityOceanFeature, EntityOceanInit> e : feature.getOcean().entrySet())
 		{
