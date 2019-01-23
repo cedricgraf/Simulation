@@ -1,0 +1,9 @@
+{
+    "germeInitial": 5,
+    "nbRepliques":6,
+    "scenarioInstanceClassNames": [
+       
+        "enstabretagne.BE.AnalyseSousMarine.ScenarioInstanceAnalyseSousMarine"
+        
+    ]
+}

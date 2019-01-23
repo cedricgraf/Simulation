@@ -1,0 +1,29 @@
+
+{
+    "mappingClasse2Representation3D": [
+        {
+            "classeObjetAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.Artefact.EntityArtefact",
+            "Representation3DAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.Artefact.Representation3D.Artefact3DRepresentation2",
+            "level4Trasparency": 5
+        },
+       
+        {
+            "classeObjetAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.SousMarin.EntitySousMarin",
+            "Representation3DAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.SousMarin.Representation3D.EntitySousMarin3DRepresentation",
+            "level4Trasparency": 5
+        },
+         {
+            "classeObjetAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.Bateau.EntityBateau",
+            "Representation3DAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.Bateau.Representation3D.EntityBateau3DRepresentation",
+            "level4Trasparency": 5
+        },
+        {
+            "classeObjetAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.Ocean.EntityOcean",
+            "Representation3DAMapper": "enstabretagne.BE.AnalyseSousMarine.SimEntity.Ocean.Representation3D.EntityOcean3DRepresentation",
+            "level4Trasparency": 1
+        }
+    ],
+    "entiteASuivre": "Drone sous marin Observation 1",    
+    "frameparseconde": 25
+}
+
